@@ -17,21 +17,21 @@ class StudentSeeder extends Seeder
             'nim' => '2031710164',
             'name' => 'Celline Salsabiela Z P',
             'class' => 'MI 2E',
-            'departement' => 'MI',
+            'department' => 'MI',
             'phone_number' => '082134584516',
         ]);
         DB::table('students')->insert([
             'nim' => '2031710054',
             'name' => 'Diska Oktavia',
             'class' => 'MI 2E',
-            'departement' => 'MI',
+            'department' => 'MI',
             'phone_number' => '089567890765',
         ]);
         DB::table('students')->insert([
             'nim' => '2031710174',
             'name' => 'Edo Galih R',
             'class' => 'MI 2E',
-            'departement' => 'MI',
+            'department' => 'MI',
             'phone_number' => '089978965312',
         ]);
     }
