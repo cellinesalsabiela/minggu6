@@ -14,16 +14,16 @@
                         </div>
                     @endif
 
-                    <table class="table table-responsive">
-                        <tr>
-                            <tr><th>ID</th><th>:</th><td>{{ $user->id }}</td></tr>
-                            <tr><th>Name</th><th>:</th><td>{{ $user->name }}</td></tr>
-                            <tr><th>Username</th><th>:</th><td>{{ $user->username }}</td></tr>
-                            <tr><th>Email</th><th>:</th><td>{{ $user->email }}</td></tr>
-                            <tr><th>Password</th><th>:</th><td>{{ $user->password }}</td></tr>
-                            <tr><th>Created At</th><th>:</th><td>{{ $user->created_at }}</td></tr>
-                        </tr>
-                    </table>
+                    <div class="card-header">{{ $student->nim }}</div>
+                        <div class="card-body">
+                            Name : {{ $student->name }} <br>
+                            Class : {{ $student->kelas->class_name }} <br>
+                            Department : {{ $student->department }} <br>
+                            Phone Number : {{ $student->phone_number }} <br>
+                            Created at : {{ $student->created_at }} <br>
+                            Updated at : {{ $student->updated_at }} <br>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
