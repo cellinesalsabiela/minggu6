@@ -43,6 +43,7 @@ Class : {{ $student->kelas->class_name }} <br>
  @endforeach
  </tbody>
  </table>
+ <a href="/students/{{$student->id}}/report" class="btn btn-primary" target="_blank">PRINT PDF</a>
 </body>
 </html>
             </div>
